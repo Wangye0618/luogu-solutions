@@ -1,8 +1,7 @@
-﻿// 洛谷 P2433 小学数学 N 合一
+// 洛谷 P2433 小学数学N合一
 // https://www.luogu.com.cn/problem/P2433
-// 思路/踩坑：
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
     int T;

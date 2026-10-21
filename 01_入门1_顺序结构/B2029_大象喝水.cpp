@@ -1,11 +1,11 @@
-﻿// 洛谷 B2029 大象喝水
+// 洛谷 B2029 大象喝水
 // https://www.luogu.com.cn/problem/B2029
-// 思路/踩坑：
+// 备注：在除法时要想得出小数，注意要分子为一个小数
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
-int h,r,t;
+    int h,r,t;
     double p,s;
     p=3.14;
     cin>>h>>r;
@@ -13,11 +13,4 @@ int h,r,t;
     t=ceil(20000.0/s);
     cout<<t;
     return 0;
-    
-        
-    
-    
-
-    
 }
-在除法时要想得出小数，注意要分子为一个小数

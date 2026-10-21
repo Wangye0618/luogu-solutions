@@ -1,14 +1,11 @@
-﻿// 洛谷 P5711 闰年判断
+// 洛谷 P5711 闰年判断
 // https://www.luogu.com.cn/problem/P5711
-// 思路/踩坑：
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
-int n;
+    int n;
     cin>>n;
-      cout<<((n%4==0)&&(n%100!=0)||(n%400==0));    
+    cout<<((n%4==0)&&(n%100!=0)||(n%400==0));
     return 0;
-            
-        
-          }  
+}
